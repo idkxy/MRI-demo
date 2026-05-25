@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Streamlit
+.streamlit/
+
+# Results
+results/
+*.png
+*.jpg
+*.jpeg
+
+# Data
+validation_stage1/
+*.npy
+*.nii
+*.nii.gz
+
+# Model checkpoints
+models/
+*.pth
+*.pt
+
+# Manifest can be regenerated
+validation_manifest.md
+
+# Mac
+.DS_Store
